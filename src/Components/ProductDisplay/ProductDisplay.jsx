@@ -44,8 +44,8 @@ export const ProductDisplay = (props) => {
                         <div>XL</div>
                         <div>XXL</div>
                     </div>
+                    <button>ADD TO CART</button>
                 </div>
-                <button>ADD TO CART</button>
                 <p className='productdisplay-right-categroy'> <span>Categroy :</span>Women , T-shrot, Crop Top</p>
                 <p className='productdisplay-right-categroy'> <span>Tags :</span> Modern , Latest</p>
             </div>
