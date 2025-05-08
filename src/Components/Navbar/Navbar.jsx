@@ -1,12 +1,14 @@
 import './Navbar.css';
 import logo from '../Assets/logo.png';
 import cart_icon from '../Assets/cart_icon.png';
-import { useState } from "react";
+import { useState ,useContext} from "react";
 import { Link } from "react-router-dom";
+import { ShopContext } from '../../Context/ShopContext';
 
 const Navbar = () => {
     const [menu, setMenu] = useState("shop");
-
+    const { getDefaultCartItems } = useContext(ShopContext);
+    
     return (
         <div className="navbar">
             <div className="nav-logo">
@@ -39,7 +41,7 @@ const Navbar = () => {
                     <img src={cart_icon} alt="Cart Icon" />
                 </Link>
                 <div className="nav-cart-count">
-                    0 {/* You can dynamically add the cart count here */}
+                    {getDefaultCartItems()}
                 </div>
             </div>
         </div>
