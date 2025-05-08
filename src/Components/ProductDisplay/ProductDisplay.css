@@ -74,7 +74,15 @@
     font-size: 16px;
     font-weight: 600;
     background: #ff4141;
+    color: white;
     border: none;
     outline: none;
     cursor: pointer;
 }
+.productdisplay-right-categroy{
+    margin-top: 10px;
+}
+.productdisplay-right-categroy span{
+    font-weight: 600;
+}
+
