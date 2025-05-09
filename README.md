@@ -1,6 +1,6 @@
 # E-Commerce React App
 
-![Project Screenshot](https://via.placeholder.com/800x400?text=E-Commerce+Demo) <!-- Replace with actual screenshot -->
+![Project Screenshot](Screenshot.png) <!-- Replace with actual screenshot -->
 
 A modern e-commerce web application built with React, Firebase, and React Router. Features product listings, cart functionality, and responsive design.
 
